@@ -1,0 +1,29 @@
+# ------------------------------------------------------------------
+# Private conversation data — NEVER commit any of this
+# ------------------------------------------------------------------
+# Raw Telegram export (HTML pages, photos, JSON, all_messages.txt)
+ChatExport_*/
+ChatExport_*.zip
+
+# Generated datasets at the project root
+conversation.json
+clean_messages.json
+clean_messages_with_time.json
+messages.json
+all_messages.txt
+
+# Trained checkpoints / model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# ------------------------------------------------------------------
+# Environment / tooling
+# ------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
